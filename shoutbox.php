@@ -2,7 +2,6 @@
 
 <?php
 
-//echo 'Hello!!!';
 
 if(isset($_POST['name']) && isset($_POST['shout'])){
 	$name = mysqli_real_escape_string($con, $_POST['name']);
